@@ -31,7 +31,7 @@ function App() {
         });
     };
     getUser();
-    console.log(user);
+    console.log("User:", user);
   }, []);
 
   return (
