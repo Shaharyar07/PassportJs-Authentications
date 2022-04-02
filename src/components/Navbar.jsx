@@ -3,6 +3,8 @@ import { useState } from "react";
 const Navbar = ({ user }) => {
   const logout = () => {
     window.open("http://localhost:5000/auth/logout", "_self");
+  
+
   };
 
   return (
